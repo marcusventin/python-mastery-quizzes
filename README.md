@@ -27,4 +27,4 @@ Stuck on a question? View sample solutions [here](https://github.com/marcusventi
 
 
 ## Feedback
-Problems with setting things up? Questions not clear? Your solution failing the tests? Having fun? Let me know!
+Problems with setting things up? Questions not clear? Your solution failing the tests? Having fun? Have any questions or ideas for improvements? Let me know!
