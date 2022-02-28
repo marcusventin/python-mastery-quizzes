@@ -30,14 +30,3 @@ people = [
   { "name": "Awad", "sport": "weightlifting", "fruit": "kiwi" },
   { "name": "Will", "sport": "cycling", "fruit": "blackberry" }
 ]
-
-print("Input a category: ")
-category = input()
-print("\nInput a category value: ")
-cat_value = input()
-
-names = [person['name'] for person in people if person[category] == cat_value]
-
-print('')
-for name in names:
-  print(name)

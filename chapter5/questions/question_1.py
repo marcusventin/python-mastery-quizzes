@@ -13,13 +13,3 @@
 #   Ask again later
 #   $ python3 chapter5/questions/question_1.py
 #   It is certain
-
-import random
-
-responses = ["It is certain",
-            "It is decidedly so",
-            "Ask again later",
-            "Outlook not so good",
-            "Very doubtful"]
-
-print(random.choice(responses))

@@ -24,34 +24,3 @@
 # 
 # * Note: To pass the tests, you'll need to print exactly what's
 #   expected. Watch out for stray punctuation, whitespace, capital letters, etc.
-
-room_counter = 1
-
-while True:
-    start_choice = input()
-    if start_choice == "north":
-        room_counter += 1
-        break
-
-while True:
-    if room_counter == 1:
-        print("You are in a scary passage.")
-        while True:
-            passage_choice = input()
-            if passage_choice == "north":
-                room_counter += 1
-                break
-    elif room_counter == 2:
-        print("You are in a scary cave.")
-        while True:
-            cave_choice = input()
-            if cave_choice == "north":
-                room_counter += 1
-                break
-            elif cave_choice == "south":
-                room_counter -= 1
-                break
-    elif room_counter == 3:
-        print("You walk into sunlight.")
-        break
-

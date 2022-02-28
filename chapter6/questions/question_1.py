@@ -26,15 +26,3 @@
 
 # * Note: You can assume that the user will always enter either an
 #   integer or `stop`.
-
-sum = 0
-
-while True:
-    print('Enter a number ')
-    num = input()
-    if num == 'stop':
-        break
-    else:
-        sum += int(num)
-
-print(sum)

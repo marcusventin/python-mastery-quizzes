@@ -22,18 +22,3 @@
 
 # * Note: When you run the automated tests, make sure to remove from
 #   the top level of the file any calls to any methods.
-
-class Todo():
-    def __init__(self, text):
-        self.text = text
-
-class TodoList():
-    def __init__(self):
-        self.list = []
-    
-    def add(self, todo):
-        self.list.append(todo)
-    
-    def print(self):
-        for todo in self.list:
-            print(f"* {todo.text}")

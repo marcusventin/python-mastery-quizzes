@@ -35,17 +35,3 @@ people = [
   { "name": "Awad", "sport": "weightlifting", "fruit": "kiwi" },
   { "name": "Will", "sport": "cycling", "fruit": "blackberry" }
 ]
-
-print("Input a category, sport or fruit")
-category = input()
-
-values = []
-for person in people:
-    if person[category] not in values:
-        values.append(person[category])
-
-for value in values:
-    print(value)
-    for person in people:
-        if person[category] == value:
-            print(person['name'])

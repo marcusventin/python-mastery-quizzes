@@ -3,16 +3,16 @@
 # `four = 2.+()`, the calculation to the right of the `=` should
 # evaluate to 4. So it would become `four = 2.+(2)`.
 
-five = 2.+(3)
+# five = 2.+()
 
-seven = 14./(2)
+# seven = 14./()
 
-two = 2.*(1)/(1)
+# two = 2.*()/()
 
-three_point_zero = float(6/(2))
+# three_point_zero = float(6)/()
 
-two_is_integer = isinstance(int(float(4)/(2)), int)
+# two_is_integer = isinstance((float(4)/()), int)
 
-four = 12.%(8)
+# four = 12.%()
 
-zero = 12.%(3)
+# zero = 12.%()

@@ -18,8 +18,3 @@
 #
 # * Note: You can assume the user will only enter integers separated
 #   by commas with no spaces.
-
-print("Enter some numbers, separated by commas. ")
-nums = input().split(',')
-for num in nums:
-    print('-' * int(num))

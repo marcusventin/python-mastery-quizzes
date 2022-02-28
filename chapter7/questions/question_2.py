@@ -50,36 +50,3 @@
 #   many groups they want to create.  You can assume the user will
 #   input integers for group numbers that exist when they are asked
 #   for the number of a group to print out.
-names = []
-
-print("Enter number of groups ")
-num_groups = int(input())
-
-while True:
-    print("Enter a name ")
-    names_input = input()
-    if names_input == 'stop':
-        break
-    else:
-        names.append(names_input)
-
-while True:
-    print("Enter the number of a group to print out")
-    group_input = input()
-    if group_input == "stop":
-        break
-    else:
-        chosen_group = int(group_input)
-        group_output = []
-        counter = 1
-        while True:
-
-            if chosen_group + (num_groups * (counter -1)) <= len(names):
-            # Some arcane formula to determine who goes in which group.
-                position_number = chosen_group + (num_groups * 
-                    (counter - 1)) - 1
-                group_output.append(names[position_number])
-                counter += 1
-            else:
-                print(', '.join(group_output))
-                break
